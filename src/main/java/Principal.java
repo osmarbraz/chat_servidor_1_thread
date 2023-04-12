@@ -21,7 +21,7 @@ public class Principal {
             }
             System.out.println("Servidor finalizado!");
         } catch (IOException e) {
-            System.err.println("Problemas de IO");
+             System.out.println("Excecao: " + e.getMessage());
         }
     }
 }
